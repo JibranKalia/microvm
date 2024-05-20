@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic" name="build_logic">
+                <projects>
+                  <project path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic" />
+                  <project path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/aws" />
+                  <project path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/java-convention" />
+                  <project path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/protobufs" />
+                  <project path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/scala-convention" />
+                  <project path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/settings" />
+                  <project path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/spring-convention" />
+                </projects>
+              </build>
+              <build path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/plugin-grazr-support" name="plugin-grazr-support">
+                <projects>
+                  <project path="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/plugin-grazr-support" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic" />
+            <option value="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/aws" />
+            <option value="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/java-convention" />
+            <option value="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/protobufs" />
+            <option value="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/scala-convention" />
+            <option value="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/settings" />
+            <option value="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/build_logic/spring-convention" />
+            <option value="$USER_HOME$/ziprecruiter/work/zip1/common/gradle/plugin-grazr-support" />
           </set>
         </option>
       </GradleProjectSettings>
